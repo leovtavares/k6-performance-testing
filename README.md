@@ -16,6 +16,15 @@ This repository focuses on **Performance and Load Testing** using [Grafana k6](h
 > 
 > Our CI/CD pipeline automatically publishes the latest k6 performance summary report to GitHub Pages. It visualizes request duration, VUs (Virtual Users), throughput, and error rates.
 
+## 🔗 The QA Engineering Ecosystem
+
+This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
+
 ## Repository Architecture (Performance Engineering)
 
 Following enterprise standards, the load testing scripts are organized by specific architectural scenarios and clients.
@@ -75,6 +84,15 @@ Este repositório é focado em **Testes de Carga e Performance** utilizando [Gra
 > **[Acessar Relatório HTML Interativo](https://realleotavares.github.io/k6-performance-testing/)**
 > 
 > Nossa pipeline CI/CD publica automaticamente o último relatório de execução do k6 no GitHub Pages. O painel visualiza a duração das requisições, VUs (Usuários Virtuais), *throughput* e taxas de erro.
+
+## 🔗 O Ecossistema de Engenharia de Qualidade
+
+Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ## Arquitetura do Repositório (Engenharia de Performance)
 
