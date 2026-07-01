@@ -15,23 +15,23 @@ This repository focuses on **Performance and Load Testing** using [Grafana k6](h
 Following enterprise standards, the load testing scripts are organized by specific architectural scenarios and clients.
 
 ```text
-k6-performance-testing/
-├── README.md                   # This document
-├── .github/workflows/          # CI Pipeline (GitHub Actions & Pages)
+📁 k6-performance-testing/
+├── 📄 README.md                   # This document
+├── 📁 .github/workflows/          # CI Pipeline (GitHub Actions & Pages)
 │
-├── comptia/                    # Portal tests
-│   └── tests/
-│       └── exam_release_load_test.js # Load test (Sustained traffic)
+├── 📁 comptia/                    # Portal tests
+│   └── 📁 tests/
+│       └── 📄 exam_release_load_test.js # Load test (Sustained traffic)
 │
-├── luxury-store/               # E-commerce tests
-│   └── tests/
-│       └── black_friday_spike_test.js # Spike test (Abrupt traffic)
+├── 📁 luxury-store/               # E-commerce tests
+│   └── 📁 tests/
+│       └── 📄 black_friday_spike_test.js # Spike test (Abrupt traffic)
 │
-├── tavardt/                    # Tavardt Platform
-│   └── tests/
-│       ├── load_test.js        # Standard Load Test (Expected traffic)
-│       ├── stress_test.js      # Stress Test (Breaking point discovery)
-│       └── soak_test.js        # Soak Test (Memory leak detection)
+├── 📁 tavardt/                    # Tavardt Platform
+│   └── 📁 tests/
+│       ├── 📄 load_test.js        # Standard Load Test (Expected traffic)
+│       ├── 📄 stress_test.js      # Stress Test (Breaking point discovery)
+│       └── 📄 soak_test.js        # Soak Test (Memory leak detection)
 ```
 
 ## Live Quality Dashboard
@@ -86,23 +86,23 @@ Este repositório é focado em **Testes de Carga e Performance** utilizando [Gra
 Seguindo os padrões corporativos, os scripts de teste de carga são organizados por cenários arquiteturais e clientes.
 
 ```text
-k6-performance-testing/
-├── README.md                   # Este documento
-├── .github/workflows/          # Pipeline de CI/CD (GitHub Actions)
+📁 k6-performance-testing/
+├── 📄 README.md                   # Este documento
+├── 📁 .github/workflows/          # Pipeline de CI/CD (GitHub Actions)
 │
-├── comptia/                    # Testes do Portal
-│   └── tests/
-│       └── exam_release_load_test.js # Teste de Carga (Tráfego contínuo)
+├── 📁 comptia/                    # Testes do Portal
+│   └── 📁 tests/
+│       └── 📄 exam_release_load_test.js # Teste de Carga (Tráfego contínuo)
 │
-├── luxury-store/               # Testes de E-commerce
-│   └── tests/
-│       └── black_friday_spike_test.js # Teste de Spike (Tráfego abrupto)
+├── 📁 luxury-store/               # Testes de E-commerce
+│   └── 📁 tests/
+│       └── 📄 black_friday_spike_test.js # Teste de Spike (Tráfego abrupto)
 │
-├── tavardt/                    # Plataforma Tavardt
-│   └── tests/
-│       ├── load_test.js        # Teste de Carga Padrão (Tráfego esperado)
-│       ├── stress_test.js      # Teste de Stress (Descobrir o ponto de quebra)
-│       └── soak_test.js        # Teste de Soak (Detecção de vazamento de memória)
+├── 📁 tavardt/                    # Plataforma Tavardt
+│   └── 📁 tests/
+│       ├── 📄 load_test.js        # Teste de Carga Padrão (Tráfego esperado)
+│       ├── 📄 stress_test.js      # Teste de Stress (Descobrir o ponto de quebra)
+│       └── 📄 soak_test.js        # Teste de Soak (Detecção de vazamento de memória)
 ```
 
 ## Dashboard de Qualidade (Ao Vivo)
