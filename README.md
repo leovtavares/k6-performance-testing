@@ -1,4 +1,4 @@
-[🇺🇸 English](#english) | [🇧🇷 Português](#português)
+[English](#english) | [Português](#português)
 
 <a id="english"></a>
 # K6 Performance Testing Portfolio
@@ -10,21 +10,6 @@
 
 This repository focuses on **Performance and Load Testing** using [Grafana k6](https://k6.io/). It demonstrates my ability to analyze system bottlenecks, measure throughput, and ensure that backend services can handle concurrent user traffic.
 
-## Live Quality Dashboard
-
-> **[View Live HTML Test Report](https://realleotavares.github.io/k6-performance-testing/)**
-> 
-> Our CI/CD pipeline automatically publishes the latest k6 performance summary report to GitHub Pages. It visualizes request duration, VUs (Virtual Users), throughput, and error rates.
-
-## 🔗 The QA Engineering Ecosystem
-
-This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
-
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
-
 ## Repository Architecture (Performance Engineering)
 
 Following enterprise standards, the load testing scripts are organized by specific architectural scenarios and clients.
@@ -34,12 +19,26 @@ k6-performance-testing/
 ├── README.md                   # This document
 ├── .github/workflows/          # CI Pipeline (GitHub Actions & Pages)
 │
-├── tavardt/                    # 🌍 Tavardt Platform
+├── comptia/                    # Portal tests
+│   └── tests/
+│       └── exam_release_load_test.js # Load test (Sustained traffic)
+│
+├── luxury-store/               # E-commerce tests
+│   └── tests/
+│       └── black_friday_spike_test.js # Spike test (Abrupt traffic)
+│
+├── tavardt/                    # Tavardt Platform
 │   └── tests/
 │       ├── load_test.js        # Standard Load Test (Expected traffic)
 │       ├── stress_test.js      # Stress Test (Breaking point discovery)
 │       └── soak_test.js        # Soak Test (Memory leak detection)
 ```
+
+## Live Quality Dashboard
+
+> **[View Live HTML Test Report](https://realleotavares.github.io/k6-performance-testing/)**
+> 
+> Our CI/CD pipeline automatically publishes the latest k6 performance summary report to GitHub Pages. It visualizes request duration, VUs (Virtual Users), throughput, and error rates.
 
 ## Quick Start (Developer Onboarding)
 
@@ -64,6 +63,15 @@ k6 run tavardt/tests/load_test.js
 2. **DevOps & CI/CD:** Automating load tests in GitHub Actions and publishing HTML metrics.
 3. **Thresholds & SLAs:** Defining strict Service Level Agreements in code (e.g., `http_req_duration: ['p(95)<500']`).
 
+## The QA Engineering Ecosystem
+
+This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
+
 ---
 *This portfolio is governed by strict CI/CD and engineering standards.*
 
@@ -79,21 +87,6 @@ k6 run tavardt/tests/load_test.js
 
 Este repositório é focado em **Testes de Carga e Performance** utilizando [Grafana k6](https://k6.io/). Ele demonstra minha capacidade de analisar gargalos de sistema, medir a taxa de transferência (throughput) e garantir que os serviços de backend suportem tráfego simultâneo de usuários.
 
-## Dashboard de Qualidade (Ao Vivo)
-
-> **[Acessar Relatório HTML Interativo](https://realleotavares.github.io/k6-performance-testing/)**
-> 
-> Nossa pipeline CI/CD publica automaticamente o último relatório de execução do k6 no GitHub Pages. O painel visualiza a duração das requisições, VUs (Usuários Virtuais), *throughput* e taxas de erro.
-
-## 🔗 O Ecossistema de Engenharia de Qualidade
-
-Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
-
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
-
 ## Arquitetura do Repositório (Engenharia de Performance)
 
 Seguindo os padrões corporativos, os scripts de teste de carga são organizados por cenários arquiteturais e clientes.
@@ -103,12 +96,26 @@ k6-performance-testing/
 ├── README.md                   # Este documento
 ├── .github/workflows/          # Pipeline de CI/CD (GitHub Actions)
 │
-├── tavardt/                    # 🌍 Plataforma Tavardt
+├── comptia/                    # Testes do Portal
+│   └── tests/
+│       └── exam_release_load_test.js # Teste de Carga (Tráfego contínuo)
+│
+├── luxury-store/               # Testes de E-commerce
+│   └── tests/
+│       └── black_friday_spike_test.js # Teste de Spike (Tráfego abrupto)
+│
+├── tavardt/                    # Plataforma Tavardt
 │   └── tests/
 │       ├── load_test.js        # Teste de Carga Padrão (Tráfego esperado)
 │       ├── stress_test.js      # Teste de Stress (Descobrir o ponto de quebra)
 │       └── soak_test.js        # Teste de Soak (Detecção de vazamento de memória)
 ```
+
+## Dashboard de Qualidade (Ao Vivo)
+
+> **[Acessar Relatório HTML Interativo](https://realleotavares.github.io/k6-performance-testing/)**
+> 
+> Nossa pipeline CI/CD publica automaticamente o último relatório de execução do k6 no GitHub Pages. O painel visualiza a duração das requisições, VUs (Usuários Virtuais), *throughput* e taxas de erro.
 
 ## Quick Start (Onboarding de Desenvolvedores)
 
@@ -132,6 +139,15 @@ k6 run tavardt/tests/load_test.js
 1. **Engenharia de Performance:** Medição de tempos de resposta `p(95)`, *throughput* (requisições por segundo) e *Error Rates*.
 2. **DevOps & CI/CD:** Automação de testes de carga no GitHub Actions com publicação de métricas HTML na nuvem.
 3. **Thresholds & SLAs:** Definição de Acordos de Nível de Serviço rigorosos direto no código (ex: `http_req_duration: ['p(95)<500']`).
+
+## O Ecossistema de Engenharia de Qualidade
+
+Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ---
 *Este portfólio é governado por rigorosos padrões de CI/CD e engenharia de software.*
