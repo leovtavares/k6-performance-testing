@@ -1,5 +1,6 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 // Configuração do Teste de Carga
 export const options = {
@@ -31,4 +32,11 @@ export default function () {
 
   // Pausa (think time) simulando o tempo de leitura do usuário
   sleep(1);
+}
+
+// Gera o Relatório Visual HTML
+export function handleSummary(data) {
+  return {
+    "k6-report.html": htmlReport(data),
+  };
 }
