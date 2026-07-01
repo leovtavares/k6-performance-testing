@@ -57,12 +57,6 @@ k6 run tavardt/tests/load_test.js
 # 3. An HTML report (k6-report.html) will be generated locally!
 ```
 
-## Core Competencies Demonstrated
-
-1. **Performance Engineering:** Measuring `p(95)` response times, throughput (requests per second), and error rates.
-2. **DevOps & CI/CD:** Automating load tests in GitHub Actions and publishing HTML metrics.
-3. **Thresholds & SLAs:** Defining strict Service Level Agreements in code (e.g., `http_req_duration: ['p(95)<500']`).
-
 ## The QA Engineering Ecosystem
 
 This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
@@ -133,12 +127,6 @@ k6 run tavardt/tests/load_test.js
 
 # 3. Um relatório HTML (k6-report.html) será gerado na sua pasta local!
 ```
-
-## Competências Core Demonstradas
-
-1. **Engenharia de Performance:** Medição de tempos de resposta `p(95)`, *throughput* (requisições por segundo) e *Error Rates*.
-2. **DevOps & CI/CD:** Automação de testes de carga no GitHub Actions com publicação de métricas HTML na nuvem.
-3. **Thresholds & SLAs:** Definição de Acordos de Nível de Serviço rigorosos direto no código (ex: `http_req_duration: ['p(95)<500']`).
 
 ## O Ecossistema de Engenharia de Qualidade
 
