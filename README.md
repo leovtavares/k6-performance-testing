@@ -27,6 +27,10 @@ Following enterprise standards, the load testing scripts are organized by specif
 │   └── 📁 tests/
 │       └── 📄 black_friday_spike_test.js # Spike test (Abrupt traffic)
 │
+├── 📁 dio/                        # SPA Rendering & Asset Resolution
+│   ├── 📁 e2e/tests/              # Infinite loading and hydration timeout bugs
+│   └── 📁 docs/                   # Root cause analysis & bug reports
+│
 ├── 📁 tavardt/                    # Tavardt Platform
 │   └── 📁 tests/
 │       ├── 📄 load_test.js        # Standard Load Test (Expected traffic)
