@@ -27,9 +27,9 @@ Following enterprise standards, the load testing scripts are organized by specif
 │   └── 📁 tests/
 │       └── 📄 black_friday_spike_test.js # Spike test (Abrupt traffic)
 │
-├── 📁 dio/                        # SPA Rendering & Asset Resolution
-│   ├── 📁 e2e/tests/              # Infinite loading and hydration timeout bugs
-│   └── 📁 docs/                   # Root cause analysis & bug reports
+├── 📁 dio/                        # Performance and Load Testing for SPA Profile
+│   └── 📁 tests/
+│       └── 📄 profile_load_test.js # K6 stages, VUs and HTTP thresholds validation
 │
 ├── 📁 tavardt/                    # Tavardt Platform
 │   └── 📁 tests/
@@ -101,6 +101,10 @@ Seguindo os padrões corporativos, os scripts de teste de carga são organizados
 ├── 📁 luxury-store/               # Testes de E-commerce
 │   └── 📁 tests/
 │       └── 📄 black_friday_spike_test.js # Teste de Spike (Tráfego abrupto)
+│
+├── 📁 dio/                        # Teste de Carga e Performance para o SPA Profile
+│   └── 📁 tests/
+│       └── 📄 profile_load_test.js # Validação de thresholds HTTP, stages e VUs do K6
 │
 ├── 📁 tavardt/                    # Plataforma Tavardt
 │   └── 📁 tests/
