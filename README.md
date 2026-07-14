@@ -31,11 +31,9 @@ Following enterprise standards, the load testing scripts are organized by specif
 │   └── 📁 tests/
 │       └── 📄 profile_load_test.js # K6 stages, VUs and HTTP thresholds validation
 │
-├── 📁 tavardt/                    # Tavardt Platform
-│   └── 📁 tests/
-│       ├── 📄 load_test.js        # Standard Load Test (Expected traffic)
-│       ├── 📄 stress_test.js      # Stress Test (Breaking point discovery)
-│       └── 📄 soak_test.js        # Soak Test (Memory leak detection)
+└── 📁 tavardt/                    # Tavardt Platform
+    └── 📁 tests/
+        └── 📄 load_test.js        # Standard Load Test (Expected traffic)
 ```
 
 ## Live Quality Dashboard
@@ -106,11 +104,9 @@ Seguindo os padrões corporativos, os scripts de teste de carga são organizados
 │   └── 📁 tests/
 │       └── 📄 profile_load_test.js # Validação de thresholds HTTP, stages e VUs do K6
 │
-├── 📁 tavardt/                    # Plataforma Tavardt
-│   └── 📁 tests/
-│       ├── 📄 load_test.js        # Teste de Carga Padrão (Tráfego esperado)
-│       ├── 📄 stress_test.js      # Teste de Stress (Descobrir o ponto de quebra)
-│       └── 📄 soak_test.js        # Teste de Soak (Detecção de vazamento de memória)
+└── 📁 tavardt/                    # Plataforma Tavardt
+    └── 📁 tests/
+        └── 📄 load_test.js        # Teste de Carga Padrão (Tráfego esperado)
 ```
 
 ## Dashboard de Qualidade (Ao Vivo)
